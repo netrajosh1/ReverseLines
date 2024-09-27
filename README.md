@@ -38,7 +38,7 @@ make
 ## Functions
 This section outlines the key functions implemented in the ReverseLines Application, along with their descriptions and parameters.
 
-# readlines
+### readlines
 
 ```c
 int readlines()
@@ -49,7 +49,7 @@ Description
 - Populates the global array filelines with the file’s characters.
 - Returns the number of lines read or an error code (-1 for too many characters in a line, -2 for too many lines).
 
-# reorder
+### reorder
 
 ```c
 int reorder(int rownum)
